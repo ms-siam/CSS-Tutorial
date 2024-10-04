@@ -1,0 +1,43 @@
+h1{
+    color: deepskyblue;
+}
+
+p{
+    color: bisque;
+}
+
+#button{
+    color: rgb(255, 8, 0);
+    background-color: green;
+}
+
+body{
+    background-color: rgb(214, 74, 191);
+}
+
+#box{
+    background-color: blue;
+}
+.heading{
+    color: red;
+}
+#button1{
+    background-color: green;
+    /* background-color: black; */
+}
+
+#h101{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}

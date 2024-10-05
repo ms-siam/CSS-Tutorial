@@ -31,3 +31,8 @@ a{
     margin-right: 180px;
     text-decoration: none;
 }
+
+#inlinediv {
+    background-color: lightblue;
+    display: inline;
+}

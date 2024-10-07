@@ -141,9 +141,11 @@ span{
     justify-content: space-evenly;
 }
 
-.panel-ops p {
+.panel-ops a {
     display: inline;
     margin-left: 15px;
+    color: white;
+    text-decoration: none;
  }
 
  .panel-ops{
@@ -155,7 +157,10 @@ span{
     font-size: 0.95rem;
     font-weight: 700;
  }
-
+.panel-deals a{
+    color: white;
+    text-decoration: none;
+}
 
 /**hero-section**/
 
@@ -182,7 +187,12 @@ span{
 
 .hero-msg a {
     color: #007185;
+    text-decoration: none;
 }
+.hero-msg a:hover{
+    text-decoration: underline;
+}
+
 
 /** shop-section **/
 
@@ -193,6 +203,8 @@ span{
     background-color: #e2e7e6;
 }
 
+
+
 .box {
     /* border: 2px solid black; */
     height: 300px;
@@ -201,6 +213,18 @@ span{
     padding: 20px 0px 15px;
     margin-top: 1rem;
 }
+
+.box:hover{
+    transition-timing-function: ease-out;
+    transition-duration: 0.3s;
+    /* background-color: yellow; */
+    transform: scale(1.065);
+}
+.boximg{
+    height: 240px;
+    width: 100%;
+}
+
 .box-img{
     height:240px;
     background-size: cover;
@@ -216,6 +240,16 @@ span{
     font-size: 1.4rem;
 }
 
+.box-content a{
+    text-decoration: none;
+    color: black;
+}
+
+.box-content a:hover{
+    text-decoration: underline;
+    
+}
+
 .box-content p {
     color: #007185;
 }
@@ -228,12 +262,23 @@ footer{
 
 .foot-panel1 {
     background-color: #37475a;
-    color: white;
+    color: rgb(255, 255, 255);
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 0.75rem;
+}
+.foot-panel1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+
+.foot-panel1 a:hover{
+    text-decoration: underline;
+    font-size: 0.9rem;
+    font-weight: 700;
 }
 
 .foot-panel2 {
@@ -243,6 +288,10 @@ footer{
     display: flex;
     justify-content: space-evenly;
 }
+.foot-panel2 a:hover{
+    text-decoration: underline;
+}
+
 
 ul {
     margin-top: 1.3rem;
@@ -268,17 +317,19 @@ ul p {
     color: white;
     border-top: 0.5px solid white;
     height: 70px;
+    /* width: 100%; */
     display: flex;
-    justify-content: center;
+    /* justify-content: flex-end; */
     align-items: center;
 
 }
 
-.logo {
-    background-image: url(image/amazon_logo.png);
-    background-size: cover;
-    height: 50px;
-    width: 100px;
+.logo1{
+    min-height: 50px;
+    max-width: 100px;
+    position: absolute;
+    left: 46.3%;
+   
 }
 
 /** Foot Panel 4 **/
@@ -298,6 +349,10 @@ ul p {
     color: white;
     text-decoration: none;
     margin-right: 1rem;
+}
+
+.pages a:hover{
+    text-decoration: underline;
 }
 
  .copyright {
